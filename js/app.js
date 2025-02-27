@@ -16,3 +16,13 @@ if(numero1 < numero2){
 // SNACK 2
 let firstString = prompt('Inserisci la prima frase');
 let secondString = prompt('Inserisci la seconda frase');
+
+if(firstString.length < secondString.length ){
+    console.log(`${secondString}`);
+    console.log(`${firstString}`);
+}else if(firstString.length > secondString.length ){
+    console.log(`${secondString}`);
+    console.log(`${firstString}`);
+}else{
+    console.errore('le stringhe hanno la stessa lunghezza')
+}
